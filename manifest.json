@@ -1,0 +1,31 @@
+{
+    "name": "Ⓜy video Pic-in-Pic ---🔲↗◻",
+    "version": "1.0.0",
+    "description": "@themarcosdev Picture in Picture Chrome Extension, você poder usar essa extensão para trocar seu video atual para Pic-in-Picture ao clicar na extensão ou apertar 'ALT+P' ",
+    "permissions": ["activeTab", "<all_urls>"],
+    "browser_action": {
+        "default_icon": {
+            "19": "pip_app.png",
+            "38": "pip_app.png"
+        }
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "pip_app.png",
+        "48": "pip_app.png",
+        "128": "pip_app.png"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "windows": "Alt+P",
+                "mac": "Alt+P",
+                "chromeos": "Alt+P",
+                "linux": "Alt+P"
+            }
+        }
+    },
+    "manifest_version": 2
+}
